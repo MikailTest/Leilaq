@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+* { padding : 0 ; margin: 0 ; box-sizing: border-box; }
+
+body{
+    background-color: antiquewhite;
+}
+.top-menu {
+    background: rgba(255,255,255,.5);
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    padding: 10px;
+    border-style: outset;
+}
+
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu-main li {display: inline-block;}
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 70px;
+    padding-left: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    transition:.3s linear;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #feb386;}
+
+.navbar-logo {
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+.logo{
+    width: 10%;
+    height: 10%;
+}
+
+.eximia{
+    background-image: url("eximia-background.jpg");
+    background-size: 2500px;
+    width: 100%;
+    padding-top: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.body{
+    padding-top: 5000px;
+}
+
